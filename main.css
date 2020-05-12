@@ -1,6 +1,6 @@
 body,
 figure {
-    background-color: blue;
+    background-color: lightblue;
     margin: 0;
 }
 
@@ -14,7 +14,7 @@ body {
 
   /*responsive images */
 
-img {width: auto;
+img {width: 100;
 max -width: 100%;
 height: auto;
 }
@@ -22,24 +22,63 @@ height: auto;
 /*hero figure/img */
 
 figure.hero {
-  margin: 0 -1em;
+  margin: 0 3em;
 }
 
 figure.hro img{
-    margin-tops: 3em;
+    margin-tops: 0 3em;
 }
 
 figure.hero figcaption {
-    margin: 0 1em;
+    margin: 0 3em;
 }
 /*typographic details */
+h1 {
+  font-size: 3.5em;
+  line-height: normal;
+  font: normal: 3.5em serif
+}
+h2 {
+  font-size: 2.25em;
+  line-height: normal;
+  font: normal: 2.25em serif
+}
+h3 {
+  font-size: 1em:
+  line-height: normal;
+  font: normal: 1em serif
+}
+
+ol {
+  font size: 0.75em;
+  line-height: normal;
+  font: normal: 1em serif
+}
 
 p {
-  font-size: 1.3em;
-  line-hieght: 1.5; /*unitless, please! */
+  font-size: 0.75em;
+  line-hieght: normal;/*unitless, please! */
+  font: normal: 0.75em serif
+
+}
+
+img.headshot {
+  max-width: 8em;
+  vertical-align: middle;
+  border-radius: 8px;
+  margin-right: .5rem;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 p.byline {
   font-weight: bold;
   text-transform: uppercase;
+  text-align: left;
 }
